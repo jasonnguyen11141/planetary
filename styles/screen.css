@@ -1,5 +1,5 @@
 body{
-    font-family: Georgia;
+    font-family: Arial;
     background: #2a2a2a;
     margin: 40px;
     padding: 20px; 
@@ -14,14 +14,14 @@ h1{
 
 .system{    
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(6,1fr);
     gap: 20px;
     text-align: center;
     
 }
 .sunShape {
-    height: 200px;
-    width: 200px;
+    height: 400px;
+    width: 400px;
     background-color: yellow;
     border-radius: 50%;
     padding: 20px;
@@ -30,13 +30,96 @@ h1{
 .sun {
     text-align: center;
     grid-column: 1/3;
-    grid-row: 1/15;
+    grid-row: 1/3;
     display: flex;
     flex-direction: column;
     justify-content: center; 
     align-items: center; 
     background-color: #d9d9d9;
     border-radius: 10px;
-    
+}
+.mercuryShape {
+    height: 25px;
+    width: 25px;
+    background-color: #708090;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.mercury, .earth, .venus, .mars{
+    grid-row: 1/2;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+.venusShape {
+    height: 50px;
+    width: 50px;
+    background-color: #c18f17;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
 
+
+.earthShape {
+    height: 100px;
+    width: 100px;
+    background-color: #4f4cb0;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.marsShape {
+    height: 75px;
+    width: 75px;
+    background-color: #451804;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.jupiter, .saturn, .uranus, .neptune{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+.jupiterShape {
+    height: 150px;
+    width: 150px;
+    background-color: #451804;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.saturnShape {
+    height: 125px;
+    width: 125px;
+    background-color: #ead6b8;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.uranusShape {
+    height: 115px;
+    width: 115px;
+    background-color: #d1e7e7;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
+}
+.neptuneShape {
+    height: 110px;
+    width: 110px;
+    background-color: #5b5ddf;
+    border-radius: 50%;
+    padding: 20px;
+    margin-top: 20px;
 }
